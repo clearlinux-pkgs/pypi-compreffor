@@ -1,5 +1,5 @@
 PKG_NAME := pypi-compreffor
-URL = https://files.pythonhosted.org/packages/2a/12/c1343a811d996bed09464367e6090555d1be34af506453f3bd5af8c9f8a8/compreffor-0.5.1.post1.tar.gz
+URL = https://files.pythonhosted.org/packages/2c/55/8835ade36a575c072fcb3e7f0daf7dc7061d5f9170a374afaaccecc28cda/compreffor-0.5.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
