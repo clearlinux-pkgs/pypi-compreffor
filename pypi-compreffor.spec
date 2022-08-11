@@ -4,7 +4,7 @@
 #
 Name     : pypi-compreffor
 Version  : 0.5.2
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/2c/55/8835ade36a575c072fcb3e7f0daf7dc7061d5f9170a374afaaccecc28cda/compreffor-0.5.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/2c/55/8835ade36a575c072fcb3e7f0daf7dc7061d5f9170a374afaaccecc28cda/compreffor-0.5.2.tar.gz
 Summary  : A CFF subroutinizer for fontTools.
