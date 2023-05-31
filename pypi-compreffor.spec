@@ -5,7 +5,7 @@
 #
 Name     : pypi-compreffor
 Version  : 0.5.3
-Release  : 13
+Release  : 14
 URL      : https://files.pythonhosted.org/packages/c6/70/f2fcc3aa9016aed23ff9853a2c1beda642baa356a21842b4eae5569f3796/compreffor-0.5.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c6/70/f2fcc3aa9016aed23ff9853a2c1beda642baa356a21842b4eae5569f3796/compreffor-0.5.3.tar.gz
 Summary  : A CFF subroutinizer for fontTools.
@@ -16,8 +16,13 @@ Requires: pypi-compreffor-license = %{version}-%{release}
 Requires: pypi-compreffor-python = %{version}-%{release}
 Requires: pypi-compreffor-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
+BuildRequires : pypi(cython)
 BuildRequires : pypi(fonttools)
 BuildRequires : pypi(py)
+BuildRequires : pypi(setuptools)
+BuildRequires : pypi(setuptools_git_ls_files)
+BuildRequires : pypi(setuptools_scm)
+BuildRequires : pypi(wheel)
 BuildRequires : pypi-pluggy
 BuildRequires : pypi-pytest
 BuildRequires : pypi-tox
@@ -81,7 +86,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1683036421
+export SOURCE_DATE_EPOCH=1685561266
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
