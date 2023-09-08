@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-compreffor
-Version  : 0.5.4
-Release  : 15
-URL      : https://files.pythonhosted.org/packages/22/a3/d02eac2052a1893c1dcc45e1d79fa09e9997a7de8df33acec1e3348569b5/compreffor-0.5.4.tar.gz
-Source0  : https://files.pythonhosted.org/packages/22/a3/d02eac2052a1893c1dcc45e1d79fa09e9997a7de8df33acec1e3348569b5/compreffor-0.5.4.tar.gz
+Version  : 0.5.5
+Release  : 16
+URL      : https://files.pythonhosted.org/packages/98/31/bab7a40f938bc9aa994735080624559236981bc4b2ed8afbe6054b211189/compreffor-0.5.5.tar.gz
+Source0  : https://files.pythonhosted.org/packages/98/31/bab7a40f938bc9aa994735080624559236981bc4b2ed8afbe6054b211189/compreffor-0.5.5.tar.gz
 Summary  : A CFF subroutinizer for fontTools.
 Group    : Development/Tools
 License  : Apache-2.0 BSD-2-Clause
@@ -75,10 +75,10 @@ python3 components for the pypi-compreffor package.
 
 
 %prep
-%setup -q -n compreffor-0.5.4
-cd %{_builddir}/compreffor-0.5.4
+%setup -q -n compreffor-0.5.5
+cd %{_builddir}/compreffor-0.5.5
 pushd ..
-cp -a compreffor-0.5.4 buildavx2
+cp -a compreffor-0.5.5 buildavx2
 popd
 
 %build
@@ -86,7 +86,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1690210317
+export SOURCE_DATE_EPOCH=1694186360
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
